@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YogaLife - Transform Your Life Through Yoga</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="header-container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">🧘</div>
+                    <span class="logo-text">YogaLife</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="menu-icon">☰</span>
+                    <span class="close-icon hidden">✕</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile hidden" id="mobileNav">
+            <a href="index.html" class="nav-mobile-link active">Home</a>
+            <a href="about.html" class="nav-mobile-link">About Us</a>
+            <a href="contact.html" class="nav-mobile-link">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1654909345733-868817fd0f76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHlvZ2ElMjBwb3NlfGVufDF8fHx8MTc2MjE3NzU5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Find Your Inner Peace">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Find Your Inner Peace</h1>
+                    <p>Experience the transformative power of yoga. Build strength, flexibility, and mindfulness.</p>
+                    <button class="cta-button">Start Your Journey</button>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1646257043001-47471d72dc5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYW4lMjB5b2dhJTIwbWVkaXRhdGlvbnxlbnwxfHx8fDE3NjIxNzc1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Strengthen Your Body">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Strengthen Your Body</h1>
+                    <p>Discover the physical benefits of yoga. Improve posture, balance, and overall wellness.</p>
+                    <button class="cta-button">Start Your Journey</button>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1635366400548-05fefa95193b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwdHJlZSUyMHBvc2V8ZW58MXx8fHwxNzYyMTc3NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Balance Your Mind">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Balance Your Mind</h1>
+                    <p>Cultivate mental clarity and emotional balance through ancient yoga practices.</p>
+                    <button class="cta-button">Start Your Journey</button>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="slider-btn slider-prev" id="prevBtn">‹</button>
+            <button class="slider-btn slider-next" id="nextBtn">›</button>
+
+            <!-- Dots -->
+            <div class="slider-dots">
+                <button class="dot active" data-slide="0"></button>
+                <button class="dot" data-slide="1"></button>
+                <button class="dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yoga Asanas Section -->
+    <section class="section asanas-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dive into the World of Health & Fitness</h2>
+                <p>Explore our collection of yoga asanas designed to enhance your physical and mental well-being</p>
+            </div>
+
+            <div class="asanas-grid">
+                <!-- Asana 1 -->
+                <div class="asana-card">
+                    <div class="asana-image">
+                        <img src="https://images.unsplash.com/photo-1635366400548-05fefa95193b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwdHJlZSUyMHBvc2V8ZW58MXx8fHwxNzYyMTc3NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Tree Pose">
+                    </div>
+                    <div class="asana-content">
+                        <h3>Tree Pose (Vrksasana)</h3>
+                        <p>Improves balance, strengthens legs, and promotes mental focus and concentration.</p>
+                    </div>
+                </div>
+
+                <!-- Asana 2 -->
+                <div class="asana-card">
+                    <div class="asana-image">
+                        <img src="https://images.unsplash.com/photo-1561577732-12fffa81b37e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwd2FycmlvciUyMHBvc2V8ZW58MXx8fHwxNzYyMDcwNzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Warrior Pose">
+                    </div>
+                    <div class="asana-content">
+                        <h3>Warrior Pose (Virabhadrasana)</h3>
+                        <p>Builds strength in legs and arms, improves stamina, and develops warrior-like focus.</p>
+                    </div>
+                </div>
+
+                <!-- Asana 3 -->
+                <div class="asana-card">
+                    <div class="asana-image">
+                        <img src="https://images.unsplash.com/photo-1632167759227-80bdfe5bfbf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwZG93bndhcmQlMjBkb2d8ZW58MXx8fHwxNzYyMTAzNzAzfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Downward Dog">
+                    </div>
+                    <div class="asana-content">
+                        <h3>Downward Dog (Adho Mukha Svanasana)</h3>
+                        <p>Stretches the entire body, strengthens arms and legs, and energizes the mind.</p>
+                    </div>
+                </div>
+
+                <!-- Asana 4 -->
+                <div class="asana-card">
+                    <div class="asana-image">
+                        <img src="https://images.unsplash.com/photo-1577344718665-3e7c0c1ecf6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwbG90dXMlMjBwb3NlfGVufDF8fHx8MTc2MjE3NzU5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Lotus Pose">
+                    </div>
+                    <div class="asana-content">
+                        <h3>Lotus Pose (Padmasana)</h3>
+                        <p>Perfect for meditation, opens the hips, and promotes calmness and mental clarity.</p>
+                    </div>
+                </div>
+
+                <!-- Asana 5 -->
+                <div class="asana-card">
+                    <div class="asana-image">
+                        <img src="https://images.unsplash.com/photo-1758274533768-ed163c8dc217?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwY29icmElMjBwb3NlfGVufDF8fHx8MTc2MjE3NzU5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cobra Pose">
+                    </div>
+                    <div class="asana-content">
+                        <h3>Cobra Pose (Bhujangasana)</h3>
+                        <p>Strengthens the spine, opens the chest, and stimulates abdominal organs.</p>
+                    </div>
+                </div>
+
+                <!-- Asana 6 -->
+                <div class="asana-card">
+                    <div class="asana-image">
+                        <img src="https://images.unsplash.com/photo-1556034910-4162343d4637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwbW91bnRhaW4lMjBwb3NlfGVufDF8fHx8MTc2MjE3NzU5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Mountain Pose">
+                    </div>
+                    <div class="asana-content">
+                        <h3>Mountain Pose (Tadasana)</h3>
+                        <p>Foundation for all standing poses, improves posture, and builds body awareness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Numbers Speak Section -->
+    <section class="section numbers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Numbers Speak</h2>
+                <p>Our achievements in transforming lives through yoga</p>
+            </div>
+
+            <div class="numbers-grid">
+                <div class="number-card">
+                    <div class="counter" data-target="1500">0</div>
+                    <p>Total Clients</p>
+                </div>
+
+                <div class="number-card">
+                    <div class="counter" data-target="12">0</div>
+                    <p>Years of Experience</p>
+                </div>
+
+                <div class="number-card">
+                    <div class="counter" data-target="50">0</div>
+                    <p>Programs & Trainings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get the Benefits of Yoga</h2>
+                <p>Discover how yoga can transform your life</p>
+            </div>
+
+            <div class="benefits-content">
+                <div class="benefits-list">
+                    <ul>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Improves flexibility and strength</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Reduces stress and anxiety</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Enhances mental clarity and focus</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Promotes better sleep quality</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Boosts immune system function</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Increases energy and vitality</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Improves posture and alignment</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span>Supports cardiovascular health</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="benefits-image">
+                    <img src="https://images.unsplash.com/photo-1758738880382-d614a6ecdc4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b2dhJTIwYmVuZWZpdHMlMjBzdHJldGNoaW5nfGVufDF8fHx8MTc2MjE3NzU5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Yoga Benefits">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real stories from real people</p>
+            </div>
+
+            <div class="testimonials-container">
+                <div class="testimonials-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <img src="https://images.unsplash.com/photo-1758599879693-9e06f55a4ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHlvZ2ElMjBjbGllbnR8ZW58MXx8fHwxNzYyMTc3NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Sarah Johnson" class="testimonial-image">
+                            <h3>Sarah Johnson</h3>
+                            <div class="stars">★★★★★</div>
+                            <p>"Yoga has completely transformed my life. I feel stronger, more flexible, and mentally at peace. The instructors are amazing!"</p>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <img src="https://images.unsplash.com/photo-1646257043001-47471d72dc5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYW4lMjB5b2dhJTIwbWVkaXRhdGlvbnxlbnwxfHx8fDE3NjIxNzc1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Michael Chen" class="testimonial-image">
+                            <h3>Michael Chen</h3>
+                            <div class="stars">★★★★★</div>
+                            <p>"After years of back pain, yoga has been my salvation. The personalized approach and caring community make all the difference."</p>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <img src="https://images.unsplash.com/photo-1654909345733-868817fd0f76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHlvZ2ElMjBwb3NlfGVufDF8fHx8MTc2MjE3NzU5MHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Emily Rodriguez" class="testimonial-image">
+                            <h3>Emily Rodriguez</h3>
+                            <div class="stars">★★★★★</div>
+                            <p>"Best decision I ever made! The classes are challenging yet accessible, and I love how I feel after each session."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button class="testimonial-btn testimonial-prev" id="testimonialPrev">‹</button>
+                <button class="testimonial-btn testimonial-next" id="testimonialNext">›</button>
+
+                <!-- Dots -->
+                <div class="testimonial-dots">
+                    <button class="dot active" data-testimonial="0"></button>
+                    <button class="dot" data-testimonial="1"></button>
+                    <button class="dot" data-testimonial="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-icon">🧘</div>
+                        <span class="logo-text">YogaLife</span>
+                    </div>
+                    <p>Transform your life through the ancient practice of yoga. Find balance, strength, and peace.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 YogaLife. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
